@@ -5,6 +5,7 @@ Created on Thu Dec  1 15:42:20 2022
 @author: lodek
 """
 #creating a dictionary
+
 dict1 = {"A":"ALPHA",
          "B":"BRAVO",
          "C":"CHARLIE",
@@ -33,4 +34,13 @@ dict1 = {"A":"ALPHA",
          "Z":"ZULU"
          
          }
-print(dict1[input("Enter a letter to get it's phonetic:\n")])
+
+#looping through the input
+
+rounds = int(input("HOW MANY PHONETICS DO YOU WANT TO KNOW ABOUT?\n"))
+
+
+for number in range(rounds):
+    print(dict1[str.upper(input("Enter a letter to get it's phonetic:\n"))]) #str.upper/lower eliminates case sensitivity
+    
+
