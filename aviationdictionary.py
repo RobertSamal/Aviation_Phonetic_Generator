@@ -6,7 +6,8 @@ Created on Thu Dec  1 15:42:20 2022
 """
 #creating a dictionary
 
-dict1 = {"A":"ALPHA",
+dict1 = {
+         "A":"ALPHA",
          "B":"BRAVO",
          "C":"CHARLIE",
          "D":"DELTA",
@@ -32,8 +33,7 @@ dict1 = {"A":"ALPHA",
          "X":"X-RAY",
          "Y":"YANKEE",
          "Z":"ZULU"
-         
-         }
+        }
 
 #looping through the input
 
